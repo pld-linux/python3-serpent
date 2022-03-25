@@ -8,7 +8,7 @@ Summary:	Serialization based on ast.literal_eval
 Summary(pl.UTF-8):	Serializacja oparta na ast.literal_eval
 Name:		python3-serpent
 Version:	1.30.2
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/serpent/
