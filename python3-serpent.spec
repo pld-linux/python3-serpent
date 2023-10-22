@@ -1,24 +1,21 @@
 #
 # Conditional build:
 %bcond_without	tests	# unit tests
-%bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
 
 Summary:	Serialization based on ast.literal_eval
 Summary(pl.UTF-8):	Serializacja oparta na ast.literal_eval
 Name:		python3-serpent
-Version:	1.30.2
-Release:	4
+Version:	1.41
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/serpent/
 Source0:	https://files.pythonhosted.org/packages/source/s/serpent/serpent-%{version}.tar.gz
-# Source0-md5:	cbef4f9c88f88c38195d11a0363a095f
+# Source0-md5:	c0ddaba7d2625631968bec8553ab95b1
 URL:		https://pypi.org/project/serpent/
 BuildRequires:	python3-modules >= 1:3.5
 BuildRequires:	python3-setuptools
 %if %{with tests}
-BuildRequires:	python3-attrs
 BuildRequires:	python3-pytz
 %endif
 BuildRequires:	rpm-pythonprov
