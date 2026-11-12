@@ -5,13 +5,13 @@
 Summary:	Serialization based on ast.literal_eval
 Summary(pl.UTF-8):	Serializacja oparta na ast.literal_eval
 Name:		python3-serpent
-Version:	1.42
+Version:	1.43
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/serpent/
 Source0:	https://files.pythonhosted.org/packages/source/s/serpent/serpent-%{version}.tar.gz
-# Source0-md5:	361160793865c5827941d9f0230ea88a
+# Source0-md5:	d1ef1ada123b2cbd71ebb67ef764315c
 URL:		https://pypi.org/project/serpent/
 BuildRequires:	python3-modules >= 1:3.5
 BuildRequires:	python3-setuptools
